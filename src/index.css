@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f6f7f4;
+  color: #0f172a;
+  font-family:
+    ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Font Design options from the profile screen */
+[data-font="bold"] {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+[data-font="soft"] {
+  font-family:
+    ui-rounded, "SF Pro Rounded", "Segoe UI", Nunito, system-ui, sans-serif;
+}
+
+[data-font="italic"] {
+  font-style: italic;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Thin, unobtrusive scrollbars inside the phone-width column */
+* {
+  scrollbar-width: thin;
+}
