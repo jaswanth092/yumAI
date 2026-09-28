@@ -1,0 +1,15 @@
+node_modules
+dist
+.DS_Store
+*.local
+.attachments/
+
+# secrets — never commit these
+.env
+.env.*
+!.env.example
+
+# editor / OS
+.idea/
+.vscode/
+*.log
